@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #f50057;
+    min-height: 70vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(198, 1%, 29%);
+    font-family: "Architects Daughter", cursive;
+    text-align: center;
+    font-size: 130%;
+    text-align: center;
+  }
+  
+  .container {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    max-width: 500px;
+    min-width: 300px;
+    background: #f1f5f8;
+    background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+    background-size: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin-top: 5vh;
+  }
+
+  header {
+    background-color: #f50057;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f50057;
+  }
+  .heading h1 {
+    transform: rotate(2deg);
+    padding: 0.7rem 1.8rem;
+    border: 1px dotted #777;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    /* background-color: #393e46; */
+    width: 90%;
+    font-size: 1.3,rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer {
+    text-align: center;
+    height: 2.5rem;
+    margin-top: 15vh;
+   text-align: center;
+  }
+
+  input[type="text" i] {
+    padding: 0.7rem;
+    margin: 3vh auto 8vh;
+  }
+
+  form button {
+    padding: 6px;
+    border-radius: 20%;
+  }
+
+  
+  button {
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #ffeaa7;
+  }
+  
+  
+  ul {
+      padding: 0;
+      margin-top: 30px;
+  }
+
+  li {
+    text-align: left;
+    position: relative;
+    padding: 0.5rem;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.4rem;
+  }
+
+  li span {
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  
